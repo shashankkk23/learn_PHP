@@ -1,0 +1,5 @@
+// variable rules in php
+// start with dollar sign followed by a word.
+// eg $name = "shashank";
+
+//  $name = "shashank";, is not same as $NAME = "tiwari";

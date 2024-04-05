@@ -1,0 +1,12 @@
+GET Request
+request is visible in the address bar
+-less secure requestmostly used to get dta from the server
+-mostly used to get data from the server
+jab data server se fetch krna ho
+
+
+
+POST Request
+-request is not visible in the address bar
+-secureused to create and update operations on server
+data create krna ho jaise create user 

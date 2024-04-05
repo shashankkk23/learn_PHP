@@ -1,0 +1,16 @@
+super global variables are default variables defined by php
+
+# we can use them in our project anywhere
+
+# $_GLOBAL
+# $_SERVER
+# $_REQUEST
+# $_POST
+# $_GET
+# $_FILES - files store krne ke kaam pdf image
+# $_COOKIE- browser ke andar data ko save rkhna chahte ho to /manage cookie accept cookie
+# $_SESSION - 1 page pe login ho aur 2-3 page se cvheck krr rhe ho user login hai ki nhi #basically data khota nhi hai/ data maintained rhta hai 
+# $_ENV -ENVIRONMENT jo environment use krr rhe hai uski info deta hai
+
+
+
