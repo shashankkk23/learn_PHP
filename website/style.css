@@ -1,0 +1,26 @@
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.heading{
+    color: yellow;
+}
+.header h3{
+    color: blue;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* display: inline; */
+}
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    width: 50px;
+}
+.header ul li a{
+    text-decoration: none;
+}

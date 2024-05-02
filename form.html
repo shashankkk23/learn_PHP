@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="post">
+
+<input type="text" name="name" placeholder="enter username"> 
+<br>
+<br>        
+<input type="password" name="password" placeholder="enter password"> 
+<br> 
+<br>        
+<input type="checkbox" value = "php"name="skills[]" ><span>php</span>     
+<br>    
+<input type="checkbox" value="java" name="skills[]" ><span>Java</span> 
+<br>        
+<input type="checkbox" value="cpp" name="skills[]"><span>CPP</span>
+<br>         
+<input type="checkbox" value="JavaScript" name="skills[]"><span>JavaScript</span>     
+<br>    
+<br>
+<input type="radio" value="male" name="gender"><span>male</span>         
+<br>
+<input type="radio" value="female" name="gender"><span>female</span>         
+<br>
+<br>
+<select name="city" value="city">
+
+    <option>Select City</option>
+    <option value="mumbai">Mumbai</option>
+    <option value="delhi">Delhi</option>
+    <option value="newdelhi">New Delhi</option>
+    <option value="uttarpradesh">UttarPradesh</option>
+</select>
+<br>
+<br>
+<textarea name="bio"></textarea>
+<br>
+<button>SignUp</button>
+</form>
+</body>
+</html>

@@ -1,11 +1,10 @@
 <?php 
-print_r($_POST);
+// print_r($_POST);
 if($_POST){
-    echo "username is $_POST[Username]";
+    echo "username is $_POST[username]";
     echo "<br>";
-    echo "username is $_POST[password]";
+    echo "password is $_POST[password]";
     echo "<br>";
-    
-    echo "username is $_POST[email]";
+    echo "Email is $_POST[email]";
 }
 ?>

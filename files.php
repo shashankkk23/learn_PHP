@@ -1,15 +1,28 @@
 <?php 
-// print_r($_FILES);
-if($_FILES['fileUpload']){
-    $path = $_FILES['fileUpload']['name'];
-    echo $path;
-    $uploadPath = "./uploadpath/".$path;
-    move_uploaded_file($_FILES['fileUpload']['temp_name'],$uploadPath) || die("failed to upload");
+#create file
+if(isset($_POST['filename'])){
+    $fileName= "files/".$_POST['filename'];
+    $content = $_POST['content'];
+    $file = fopen($fileName, "w") or die("unable to create file");
+    fwrite($file,$content);
+    fclose($file);
+    echo "file created successfull";
 }
-    else{
-        die("no file Found");
-    }
 
 
 
-    ?>
+
+
+
+?>
+
+
+<form action="" method="post">
+    <input type="text" name="filename" placeholder="enter FileName to be created">
+    <br>
+    <br>
+    <textarea name="content" cols="30" rows="10" placeholder="enter some file content"></textarea>
+    <br>
+    <br>
+    <button>Create File</button>
+</form>
